@@ -987,6 +987,11 @@ div.play-button {
   padding: calc(20px + 10 * ((100vw - 320px) / 1600)) calc(6px + 269 * ((100vw - 320px) / 1600));
 }
 
+.header__logo img {
+  max-width: 100%;
+  height: auto;
+}
+
 .menu {
   /* .menu__icon */
   /* .menu__body */
@@ -1101,6 +1106,11 @@ div.play-button {
 
 .footer__logo {
   margin-bottom: calc(20px + 40 * ((100vw - 320px) / 1600));
+}
+
+.footer__logo img {
+  max-width: 100%;
+  height: auto;
 }
 
 .footer__list > li {
@@ -1516,11 +1526,11 @@ div.play-button {
   position: relative;
   margin-left: calc(20px + 40 * ((100vw - 320px) / 1600));
   margin-bottom: 74px;
-  border-radius: 18px;
-  background-color: rgba(1, 153, 109, 0.2);
 }
 
 .product__image {
+  border-radius: 18px;
+  background-color: rgba(1, 153, 109, 0.2);
   position: relative;
   padding: calc(20px + 87 * ((100vw - 320px) / 1600)) calc(40px + 118 * ((100vw - 320px) / 1600)) 0;
 }
@@ -1707,6 +1717,11 @@ div.play-button {
   height: 53px;
   border-radius: 50%;
   background: rgba(1, 153, 109, 0.2);
+}
+
+.card-sm__image img {
+  max-width: 100%;
+  height: auto;
 }
 
 .card-sm__name {
